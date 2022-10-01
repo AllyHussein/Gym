@@ -1,0 +1,41 @@
+#detailsContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+#detailsDiv {
+    max-width: 50%;
+}
+#detailsP {
+    max-width: 60%;
+}
+@media only screen and (max-width: 700px){
+	/*Big smartphones [426px -> 600px]*/
+    #detailsContainer {
+        display: block;
+    }
+    #detailsDiv {
+        margin: auto;
+    }
+    #detailsImg {
+        margin: auto;
+    }
+    #detailsP {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    #detailsContainer {
+        display: block;
+    }
+    #detailsDiv {
+        margin: auto;
+        max-width: 100%;
+    }
+    #detailsImg {
+        margin: auto;
+    }
+    #detailsP {
+        max-width: 100%;
+    }
+}

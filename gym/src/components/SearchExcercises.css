@@ -1,0 +1,16 @@
+#search {
+    display: flex;
+    width: 50%;
+}
+#searchInput {
+    min-width: 250px;
+
+}
+@media only screen and (max-width: 700px){
+	/*Big smartphones [426px -> 600px]*/
+    #search {
+        display: block;
+        width: 100%;
+        text-align: right;
+    }
+}
